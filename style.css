@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: white;
+}
+
+.container {
+    background: linear-gradient(to right, #8e73c2, #7074bd, #5c75b8);
+    max-width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat {
+    background: #9e90cd;
+    width: 200px;
+    height: 400px;
+    padding: 5px;
+    margin-right: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.dog {
+    background: #908fc9;
+    width: 200px;
+    height: 480px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border-spacing: 15px;
+}
+
+.fish {
+    background: #808fc6;
+    width: 200px;
+    height: 380px;
+    padding: 5px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+section p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+section li {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+li:not(:last-child) {
+    border-bottom: 1px solid grey;
+}
+
+main ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: white;
+    line-height: 70px;
+}
+
+h3 {
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+button {
+    background: #fffd38;
+    width: 160px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    font-weight: bold;  
+}
+
+div .cat-emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat img {
+    width: 30px;
+}
+
+div .dog-emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog img {
+    width: 30px;
+}
+
+div .fish-emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fish img {
+    width: 30px;
+}
